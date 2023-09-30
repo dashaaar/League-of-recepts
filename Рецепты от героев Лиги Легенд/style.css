@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+}
+body{
+    background-color:greenyellow;
+    color:green;
+}
+header{
+    padding:10px 5%;
+    background-color:#20a100;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+}
+header>*{
+    display:inline-block;
+    color:yellow;
+}
+header>a{
+    text-decoration: none;
+    border-bottom: 5px solid yellow;
+}
+.logo{
+    width: 186px;
+}
+.champions{
+    background-image: url(images/League-of-Legends-Backgrounds.png);
+    background-size: cover;
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 25px;
+}
+.zagolovok{
+    display:flex;
+    justify-content: center;
+    padding-left: 15px;
+}
+.zagolovok-2{
+    display:flex;
+    justify-content: center;
+    padding-left: 15px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: flex-start;
+}
+.row>img{
+    width: 20%;
+}
+.food{
+    display: flex;
+    align-items: flex-start;
+    padding-left: 100px;
+}
+.post{
+    background-color:rgb(145, 255, 111);
+    color:green;
+    padding: 10px;
+}
+.razryv{
+    height: 30px
+}
+.final{
+    background-image: url(images/Звездные_защитники.jpg);
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 100px;
+    font-size: 35px;
+    color:greenyellow;
+}
+footer{
+    padding:10px;
+    background-color:#20a100;
+    text-align:center;
+    color:yellow;
+}
